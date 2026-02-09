@@ -9,8 +9,9 @@ export default function ({ children }: { children: React.ReactNode }) {
         height: "100vh",
         display: "flex",
         flexDirection: "column",
-        background: "#FFFFFF",
+        background: "#000000",
         fontFamily: "Uber Move Text",
+        color: "#FFFFFF",
       }}
     >
       {children}
